@@ -12,7 +12,7 @@ if($_POST['submit']){
 
 	$mail_body = "Hi, This is  a test PHP mail from caterplace";
 
-	echo mail($to,$subject,$mail_body,$headers);
+	echo mail($to,$subject,$mail_body,$headers);exit;
 }
 
 ?>
