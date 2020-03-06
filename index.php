@@ -1,7 +1,7 @@
 <?php
-if($_POST['submit']){
 
-	$to = $_POST['email'];
+
+	$to ="roopesh.july17taurus@gmail.com";
 	$subject="Caterplace Greeting";
 
 
@@ -17,10 +17,3 @@ if($_POST['submit']){
 
 ?>
 
-
-<html>
-<form method="POST">
-<input type="email" name="email" placeholder="enter your email address" />
-<input type="submit"  name="submit"/>
-</form>
-</html>
